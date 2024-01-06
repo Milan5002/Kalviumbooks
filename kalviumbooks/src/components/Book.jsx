@@ -48,16 +48,15 @@ const Book = () => {
         <button className="register message2">SIGN-UP </button>
       </Link>
         </div>
-       
       )}
       
       {searchvalue.length == 0 ? (
         <div>
          
-          <h5 className="des">
+          <h1 className="des">
             {" "}
-            Please search again with a valid book title.{" "}
-          </h5>
+            Please enter a valid book name{" "}
+          </h1>
         </div>
       ) : (
         ""
@@ -66,8 +65,8 @@ const Book = () => {
          className="book-container"
          style={{
            display: showBook ? 'block' : 'none',
-         }}
-       >
+         }}>
+       
         {searchvalue.map((elem, idx) => {
           return (
             <div

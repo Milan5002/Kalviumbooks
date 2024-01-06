@@ -54,15 +54,18 @@
   background-color: red;
   color: azure;
 }
+.des{
+  color: #060202;
+}
 .book-container{
   margin: 50px auto;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  gap: 35px;
+  grid-template-columns: repeat(4,1fr);
+  gap: 2px;
 }
 
 .book:hover{
-  padding: 12px;
+  padding: 5px;
   background-color: beige;
   border-radius: 20%;
 }
@@ -72,7 +75,7 @@
   position: fixed;
   margin: 20px auto;
   margin-top: 16%;
-margin-left: 27%;
+ margin-left: 27%;
 }
 .message3{
   z-index: 5;
@@ -141,7 +144,7 @@ span{
   border-bottom: 2px solid red;
 }
 .bookimg{
-  height: 165px;
+  height: 200px;
 }
 .signup { 
   font-weight: bold;
@@ -194,7 +197,7 @@ h5 {
     margin: auto auto;
     display: grid;
     font-size: 1em;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(2,1fr);
     gap: 10px;
     margin: 0 0 0 0;
   }
