@@ -1,0 +1,227 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+}
+.nav{
+  width: 85vw;
+  margin: 1rem;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 1px 3px 2px 1px rgba(242, 5, 5, 0.25);
+}
+.logodiv{
+  align-items: center;
+}
+.inputdiv{
+  background-color: white;
+}
+.input{
+  width: 30vw;
+  padding: 7px;
+  text-indent:2.6rem;
+  border: 1.9px solid #060202;
+  border-radius: 20px;
+  font-size: 15px;
+  background-color: white;
+  background-image: url('https://www.w3schools.com/css/searchicon.png');
+  background-position: 16px 7px; 
+  background-repeat: no-repeat;
+  color: black;
+  height: fit-content;
+
+}
+.register{
+  padding: 11px 22px;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 9px auto 9px;
+  text-align: center;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.30s;
+  background-color: rgb(255, 255, 255);
+  color: red;
+  border: 2px solid red;
+}
+.register:hover{
+  background-color: red;
+  color: azure;
+}
+.book-container{
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 35px;
+}
+
+.book:hover{
+  padding: 12px;
+  background-color: beige;
+  border-radius: 20%;
+}
+.message1{
+  z-index: 5;
+  font-size:40px;
+  position: fixed;
+  margin: 20px auto;
+  margin-top: 16%;
+margin-left: 27%;
+}
+.message2{
+  z-index: 5;
+  position: fixed;
+  margin-top: 20%;
+ margin-left: -5%;
+}
+#title{
+  margin: 9px auto;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+span{
+  color: rgb(0, 8, 255);
+  padding-left: 6px;
+  font-size: 1.2rem;
+}
+.form-container{
+  color: rgb(57, 28, 175);
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.err {
+  box-sizing: border-box;
+  margin: none;
+  padding: none;
+  color: red;
+  font-size: 13px;
+}
+.form {
+  flex-direction: column;
+  align-items: center;
+  border: solid rgb(23, 3, 3);
+  text-align: center;
+  padding: 25px 80px;
+  border-radius: 1.1em;
+  width: 100%;
+}
+.form h1 {
+  font-size: 1.7em;
+  color: red;
+}
+.form input{
+  padding: 0.5em;
+  margin: 15px auto;
+  width: 95%;
+  display: block;
+  text-align: left;
+  font-size: 1.1em;
+  font-weight: 3.1px;
+  background: none;
+  color: rgb(19, 6, 6);
+  transition: 0.39s;
+  cursor: pointer;
+  border: none;
+  border-bottom: 2px solid red;
+}
+.bookimg{
+  height: 165px;
+}
+.signup { 
+  font-weight: bold;
+  font-size: 1em;
+  padding: 0.6em 1.1em;
+  margin: 18px auto 12px;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  transition: 0.39s;
+  border: 2px solid red;
+  color:red
+}
+.signup:hover{
+  background-color: red;
+  color: azure;
+}
+a{
+  text-decoration: none;
+  color: red;
+}
+.register:hover , .signup:hover{
+  transform: scale(1.1);
+}
+
+.h2{
+  font-size: 3rem;
+  color: red;
+}
+h5 {
+  color: aliceblue;
+  text-align: center;
+  word-spacing: 3px;
+  font-size: 1em;
+  letter-spacing: 1.2px;
+}
+
+@media screen and (max-width: 500px) {
+  .nav {
+    width: 90vw;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .input {
+    width: 45vw;
+  }
+
+  .book-container{
+    margin: auto auto;
+    display: grid;
+    font-size: 1em;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+    margin: 0 0 0 0;
+  }
+  .book:hover{
+    padding: 5px;
+    background-color: beige;
+    border-radius: 20%;
+  }
+  .message1{
+    z-index: 5;
+    font-size:30px;
+    position: fixed;
+    margin: 10px auto;
+    margin-top: 45%;
+  margin-left: 9%;
+  }
+  .message2{
+    z-index: 5;
+    position: fixed;
+    margin-top: 65%;
+   margin-left: -15%;
+  }
+ 
+  .form{
+    margin: 20px;
+  }
+  .form {
+    flex-direction: column;
+    align-items: center;
+    border: solid rgb(23, 3, 3);
+    text-align: center;
+    padding: 11px 20px;
+    border-radius: 1.1em;
+    width: 80%;
+  }
+}
+
