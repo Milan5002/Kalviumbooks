@@ -43,6 +43,7 @@ const Book = () => {
       {!showBook && (
         <div>
           <h1 className="message1">please signup to read books</h1>
+          <h3 className="message3">The more that you read, the more things you will know. The more that you learn, the more places you'll go</h3>
           <Link to="/form">
         <button className="register message2">SIGN-UP </button>
       </Link>

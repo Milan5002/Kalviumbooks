@@ -74,10 +74,17 @@
   margin-top: 16%;
 margin-left: 27%;
 }
+.message3{
+  z-index: 5;
+  font-size:25px;
+  position: fixed;
+  margin: 20px auto;
+  margin-top: 22%;
+margin-left: 9%;}
 .message2{
   z-index: 5;
   position: fixed;
-  margin-top: 20%;
+  margin-top: 27%;
  margin-left: -5%;
 }
 #title{
@@ -207,10 +214,16 @@ h5 {
   .message2{
     z-index: 5;
     position: fixed;
-    margin-top: 65%;
+    margin-top: 105%;
    margin-left: -15%;
   }
- 
+  .message3{
+    z-index: 5;
+    position: fixed;
+    font-size:28px;
+    margin-top: 65%;
+    margin-left: 0;
+  }
   .form{
     margin: 20px;
   }
